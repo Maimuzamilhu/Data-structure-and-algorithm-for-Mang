@@ -12,6 +12,7 @@ def binarySearch(arr, x, i, j):
           j = mid-1
     return -1
 
+
 ## Driver code
 arr = [20, 30, 40, 50, 60, 70, 80, 90]
 x = 80
