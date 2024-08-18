@@ -1,3 +1,6 @@
+## Time complexity: O(n)
+## Two pointer approach
+
 def two_sum(arr, target_sum):
     l = 0  # Left pointer
     r = len(arr) - 1  # Right pointer
