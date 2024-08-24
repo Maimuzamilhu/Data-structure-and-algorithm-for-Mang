@@ -11,9 +11,7 @@ def selectionsort(arr):
         arr[i], arr[min_inx] = arr[min_inx], arr[i]
     return  arr
 
-
-
-
+# Driver code
 arr = [70, 56, 23, 19, 25, 37, 48]
 result = selectionsort(arr)
 print("Array after using selection sort is:", result)
