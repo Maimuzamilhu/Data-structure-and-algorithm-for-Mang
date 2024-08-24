@@ -1,4 +1,4 @@
-
+# Time complexity : O(n^2)
 def selectionsort(arr):
     n = len(arr)
     for i in range(n):
