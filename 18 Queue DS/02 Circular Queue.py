@@ -50,6 +50,7 @@ class Queue:
         else:
             print(self.queue[self.front:] + self.queue[:self.rear+1])
 
+
 # Example usage
 q = Queue(5)
 q.enqueue(1)
